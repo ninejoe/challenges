@@ -107,7 +107,7 @@ export default connect((state) => state)(
     state = {
       charities: [],
       selectedAmount: 10,
-      selectDonation: 2,
+      selectDonation: 0,
     };
 
     componentDidMount() {
